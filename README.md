@@ -13,15 +13,15 @@
 This Python project implements a symmetric encryption algorithm for secure password management, designed for learning purposes. It allows users to store sensitive information, such as usernames and passwords, in an encrypted format within a file. The encryption ensures the confidentiality of the stored data, providing an added layer of security.
 This project is intended for educational purposes only. The code is provided as-is, without any guarantee or warranty. Use at your own risk.
 
-## Symmetric Encryption
+### Symmetric Encryption
 
 This encryption method uses a symmetric key, meaning the same password is used for both encryption and decryption. Users must remember their chosen password to access and manage their stored credentials.
 
-## Password Generator
+### Password Generator
 
 Included in the project is a helpful Bash script for generating secure passwords of any length. Users can leverage this feature to create strong, unique passwords for their accounts.
 
-## Secure Credential Retrieval
+### Secure Credential Retrieval
 
 To retrieve stored account information, users must provide the correct encryption key and specify the domain name associated with the desired credentials. This ensures that only authorized users can access and view their sensitive data.
 
@@ -31,9 +31,7 @@ To retrieve stored account information, users must provide the correct encryptio
 
 To add a new account to the encrypted file, run the symmetric_encrypt.sh script with the following command:
 
-    ```bash
-        "./symmetric_encrypt.sh <file_path> <domain_name> <username> <password>"
-    ```
+    `./symmetric_encrypt.sh <file_path> <domain_name> <username> <password>`
 
 You will be prompted to enter a key, and the encrypted account information will be stored in the specified file.
 
@@ -41,9 +39,7 @@ You will be prompted to enter a key, and the encrypted account information will 
 
 To retrieve account information from the encrypted file, run the symmetric_decrypt.sh script with the following command:
 
-    ```bash
-        "./symmetric_decrypt.sh <file_path> <domain_name>"
-    ```
+    `./symmetric_decrypt.sh <file_path> <domain_name>`
 
 Enter the key used for encryption, and the decrypted username and password will be displayed.
 
@@ -51,13 +47,11 @@ Enter the key used for encryption, and the decrypted username and password will 
 
 To generate a secure password, run the provided Bash script:
 
-    ```bash
-        "./password_generator.sh"
-    ```
+    `./password_generator.sh`
 
 # Requirements
 
-Python 3.x
+- Python 3.x
 
 [Download Python3](https://www.python.org/downloads/)
 

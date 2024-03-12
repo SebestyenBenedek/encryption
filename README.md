@@ -1,12 +1,12 @@
 # Table of Contents
 
-    Overview
-    Usage
-    Requirements
-    License
-    Contribution
-    Future plans
-    Authors
+[Overview](#overview)
+[Usage](#usage)
+[Requirements](#requirements)
+[License](#license)
+[Contribution](#contribution)
+[Future plans](#future-plans)
+[Authors](#authors)
 
 # Overview
 
@@ -51,9 +51,7 @@ To generate a secure password, run the provided Bash script:
 
 # Requirements
 
-- Python 3.x
-
-[Download Python3](https://www.python.org/downloads/)
+- [Python 3.x](https://www.python.org/downloads/)
 
 # License
 
@@ -69,6 +67,16 @@ If you'd like to contribute to the project, please follow these guidelines:
 - Make your changes and commit: git commit -m 'Add some feature'.
 - Push to your fork: git push origin feature-name.
 - Open a pull request.
+
+# Future plans
+
+In the upcoming stages of development, the project aims to achieve the following:
+
+1. **Code Testing:**
+   - Thoroughly test the entire codebase to ensure its reliability and identify any potential issues or bugs.
+
+2. **Implementing Asymmetric Encryption:**
+   - Develop and integrate an asymmetric encryption algorithm to enhance the project's capabilities. This addition will focus on encrypting and decrypting messages and data, expanding the application beyond password management.
 
 # Authors
 
